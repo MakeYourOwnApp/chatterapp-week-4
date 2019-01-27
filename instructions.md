@@ -1,9 +1,6 @@
-<!-- - channels.js erstellen mit Objektnamen = channel1,channel2...
+- channels.js erstellen mit Objektnamen = channel1,channel2...
     favorite: boolean
-    messages
-    latestMessage: new Date... -->
 
-- messages.js
 
 - switch channel mit highlighting (ids in html)
 
