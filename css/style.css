@@ -43,7 +43,7 @@ h1 {
     justify-content: space-between;
 }
 
-.headbar i {
+.headbar a {
     line-height: 66px;
 }
 
@@ -61,7 +61,7 @@ h1 {
     color: #00838f;
 }
 
-#fab {
+.fab {
     width: 44px;
     height: 44px;
     background-color:#00838f;
@@ -152,6 +152,11 @@ h2 {
     max-width: 75%;
 }
 
+.message a {
+    font-size: 33px;
+    color: #666666;
+}
+
 .message i {
     font-size: 33px;
     color: #666666;
@@ -237,4 +242,10 @@ h2 {
 #send-button {
     color: #00838f;
     cursor: pointer;
+}
+
+
+.selected {
+    background-color: #eeeeee;
+    border-right: 3px solid #00838f;
 }
