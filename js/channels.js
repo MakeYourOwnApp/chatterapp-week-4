@@ -1,8 +1,7 @@
 const channel1 = {
     id: "channel1",
     name: "MeetUp",
-    favorite: true,
-    latestMessage: new Date('December 08, 2018 17:24:00')
+    favorite: true
 }
 const channel2 = {
     id: "channel2",
