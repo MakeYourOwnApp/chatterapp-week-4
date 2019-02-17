@@ -2,20 +2,20 @@
 console.log("App is alive");
 
 //Store name of currently selected channel 
-let currentChannel = channel1;
-let selectedChannel;
+let selectedChannel = channel1;
 
-function switchChannel(selectedChannel) {
-    console.log("selected channel with name: " + selectedChannel.name);
-    document.getElementById(currentChannel.id).classList.remove("selected");
-    document.getElementById(selectedChannel.id).classList.add("selected")
-    currentChannel = selectedChannel;
+function switchChannel(channel) {
+    console.log("selected channel with name: " + channel.name);
+    document.getElementById(selectedChannel.id).classList.remove("selected");
+    document.getElementById(channel.id).classList.add("selected")
+    selectedChannel = channel;
     showHeader();
 }
 
 function showHeader() {
     //display currently selected Channel in App Bar
-    document.getElementById('channelName').innerHTML = currentChannel.name;
+    document.getElementById('channelName').innerHTML = selectedChannel.name;
+    document.getElementById('favorite-button').innerHTML = (selectedChannel.favorite)? "favorite" : "favorite_border";
 }
 
 
